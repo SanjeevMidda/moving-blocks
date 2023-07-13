@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.block {
+  width: 12vw;
+  height: 10vw;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(green, blue);
+}
+
+.directions {
+  display: flex;
+  gap: 20px;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h3:hover {
+  transform: scale(1.3);
+}
